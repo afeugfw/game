@@ -1,0 +1,31 @@
+#game {
+   border: 1px solid #000; 
+   display: block;
+}
+body {
+   background-image: url(https://sotni.ru/wp-content/uploads/2023/08/fon-dlia-platformera-14.webp);
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+}
+.red-box{
+width: 17px;
+height: 15px;
+background-color: red;
+}
+#score-container {
+   width: 548px;
+  position: absolute;
+   margin-bottom: 550px;
+   padding: 3px;
+   background-color: #3ac527;
+   border: 2px solid #333;
+   border-radius: 5px;
+   font-family: Arial, sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+   color: #333;
+ }
