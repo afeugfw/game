@@ -72,8 +72,8 @@ function drawGame() {
     }
 
     if (
-        snakeX < 0 || snakeX >= canvas.width ||
-        snakeY < 0 || snakeY >= canvas.height
+        snakeX < 0 || snakeX + box > canvas.width ||
+        snakeY < 0 || snakeY + box > canvas.height
     ) {
         clearInterval(game);
         alert("Вы проиграли!");
